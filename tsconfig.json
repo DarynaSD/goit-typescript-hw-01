@@ -5,8 +5,8 @@
     "target": "es2019",
     "module": "ES2022",
     "strict": true,
-    "lib": ["ES2021"],
-    "allowJs": true,
+    "lib": ["DOM", "ES2021"],
+    "allowJs": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
@@ -16,8 +16,8 @@
     "skipLibCheck": true,
     "strictNullChecks": true,
     "jsx": "react-jsx",
-
-    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "sourceMap": true,
   },
   "include": ["**/*.ts"]
 }
